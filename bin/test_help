@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "rspec_cli_helper"
+
+
+
+include RspecCliHelper::CliPrompt
+
+start_prompt
